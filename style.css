@@ -1,0 +1,54 @@
+body{
+   font-family: monospace; 
+}
+.container{
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+img{
+    height: 400px;
+}
+
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 22px;
+}
+h6{
+    font-size: 20px;
+    padding-left: 9%;
+}
+button{
+    width: 216px;
+height: 68px;
+background-color: #333333;
+color: white;
+margin-top: 20px;
+border: none;
+}
+footer{
+    text-align: center;
+    color: #BDBDBD;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+span{
+    text-decoration-line: underline;
+}
+
+@media screen and (max-width:576px) 
+{
+    .container{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    img{
+        height: 300px;}
+}
